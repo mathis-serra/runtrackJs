@@ -1,12 +1,14 @@
-function showhide() {
-    var article = document.getElementById("citation");
+const button = document.getElementById("button");
+const compteur = document.getElementById("compteur");
 
-   
-    if (article.style.display !== "none") {
-        
-        article.style.display = "none";
-    } else {
-        
-        article.style.display = "block";
-    }
+
+let nombreClics = 0;
+
+
+function addOne() {
+    nombreClics++;
+    compteur.textContent = nombreClics;
 }
+
+
+button.addEventListener("click", addOne);
