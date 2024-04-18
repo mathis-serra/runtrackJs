@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nom": "Vanni",
+        "prenom" : "Barbara",
+        "email" : "barbara.vanni@laplateforme.io"
+    },
+    {
+        "id": 2,
+        "nom": "Lounadi",
+        "prenom" : "Yanis",
+        "email" : "Yanis-Lounadi@emu-univ.com"
+    },
+    {
+        "id": 3,
+        "nom": "Ngo",
+        "prenom" : "Kévin",
+        "email" : "kevin.ngo@laplateforme.io"
+    },
+    {
+        "id": 4,
+        "nom": "Serra",
+        "prenom" : "Mathis",
+        "email" : "mathis.serra@laplateforme.io"
+    }
+]
